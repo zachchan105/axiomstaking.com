@@ -1,3 +1,5 @@
+var width = $(window).width(); 
+
 <!-- Hotjar Tracking Code for https://axiomstaking.com/ -->
 <script>
     (function(h,o,t,j,a,r){
@@ -9,9 +11,6 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-
-
-var width = $(window).width(); 
 window.onscroll = function(){
 if ((width >= 1000)){
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
